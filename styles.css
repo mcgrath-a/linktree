@@ -64,6 +64,7 @@ h1 {
     font-size: 20px;
     margin-bottom: 30px;
     letter-spacing: 0.5px;
+    color:white;
 }
 
 a {
@@ -114,7 +115,7 @@ a {
 .icon {
     margin: 4px 8px;
     width: 44px;
-    height: 45px;
+    height: 44px;
 }
 
 /* Add your existing CSS styles here */

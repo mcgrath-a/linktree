@@ -63,7 +63,7 @@ header {
 h1 {
     font-size: 20px;
     margin-bottom: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
 }
 
 a {

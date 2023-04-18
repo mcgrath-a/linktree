@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(10,10,10);
-    background-image: url('background.gif');
+    background-image: url('colorful.jpg');
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -63,6 +63,7 @@ header {
 h1 {
     font-size: 20px;
     margin-bottom: 30px;
+    letter-spacing: 2px;
 }
 
 a {
@@ -103,6 +104,7 @@ a {
     width: 96px;
     border-radius: 48px;
     overflow: hidden;
+    border: 2px solid black;
 }
 
 .image-container img {

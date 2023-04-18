@@ -95,3 +95,40 @@ a {
     width: 44px;
     height: 45px;
 }
+
+/* Add your existing CSS styles here */
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 767px) {
+    /* Adjust the container, image and other elements for mobile view */
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .image-container img {
+        max-width: 100%;
+    }
+
+    .tile {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Adjust the container, image and other elements for tablet view */
+    .container {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .image-container img {
+        max-width: 100%;
+    }
+
+    .tile {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+}
